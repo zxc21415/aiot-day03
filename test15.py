@@ -46,7 +46,7 @@ text = ",".join(keyterms)
 mask = np.array(Image.open('cloud.jpg'))
 wordcloud = WordCloud(background_color="white",
                       width=1000, height=860, 
-                      margin=2, font_path="simhei.ttf", 
+                      margin=2, font_path="msjhbd.ttc", 
                       mask=mask).generate(text)
 
 plt.figure(figsize=(10,10))
